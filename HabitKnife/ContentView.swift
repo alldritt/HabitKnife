@@ -44,30 +44,9 @@ struct ContentView: View {
                         Label("Add Habit", systemImage: "plus")
                     }
                     .sheet(isPresented: $presentingNewHabit) {
-                        var newHabit = Habit()
+                        let newHabit = Habit()
 
-                        NavigationView {
-                            HabitEditorView(habit: newHabit, isNewModel: true)
-                                .overlay(alignment: .bottom) {
-                                    Button("Add Habit") {
-                                        modelContext.insert(newHabit)
-                                        presentingNewHabit = false
-                                    }
-                                    .disabled((newHabit.name?.trimmingCharacters(in: .whitespacesAndNewlines) ?? "").isEmpty)
-                                    .buttonStyle(.bordered)
-                                    .padding(15)
-                                }
-                                .navigationTitle("New Habit")
-                                .toolbar {
-                                    ToolbarItem(placement: .navigationBarLeading) {
-                                        Button {
-                                            presentingNewHabit = false
-                                        } label: {
-                                            Label("Cancel", systemImage: "xmark")
-                                        }
-                                    }
-                                }
-                        }
+                        NewHabitView(newHabit: newHabit)
                     }
                 }
             }
