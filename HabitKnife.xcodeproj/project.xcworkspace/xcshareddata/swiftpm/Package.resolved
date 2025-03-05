@@ -1,0 +1,42 @@
+{
+  "originHash" : "1827223e5202cc24f83fda003fc1e051929f1e93919a3b1912cded00a7a11511",
+  "pins" : [
+    {
+      "identity" : "colorgrid",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BaherTamer/ColorGrid.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bfd627de2c8a8f434dfa68ea3ba1bc6d4f04016b"
+      }
+    },
+    {
+      "identity" : "sfsymbolspickerforswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alessiorubicini/SFSymbolsPickerForSwiftUI.git",
+      "state" : {
+        "revision" : "73c909b8a7fc77a30dd04208e33f759f8b52c4c8",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "symbolpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/recodyfied/SymbolPicker.git",
+      "state" : {
+        "revision" : "c1a5476cf6713a36b855bd619295e7c2f56434ae",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "systemimagepicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sbertix/SystemImagePicker.git",
+      "state" : {
+        "revision" : "d03c81b326107a267e9644b31ee415cee072130c",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

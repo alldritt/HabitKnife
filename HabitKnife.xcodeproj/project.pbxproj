@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52CE7332D5079E100D3FBC0 /* SymbolPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A52CE7322D5079E100D3FBC0 /* SymbolPicker */; };
+		A53E1EB72D4BFE4300A62070 /* ColorGrid in Frameworks */ = {isa = PBXBuildFile; productRef = A53E1EB62D4BFE4300A62070 /* ColorGrid */; };
+		A5D98CB32D53FC9000B3889F /* SFSymbolsPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A5D98CB22D53FC9000B3889F /* SFSymbolsPicker */; };
+		A5D98CB82D54047500B3889F /* SystemImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = A5D98CB72D54047500B3889F /* SystemImagePicker */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5B450D22D486E1F00851953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B450B52D486E1E00851953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B450BC2D486E1E00851953;
+			remoteInfo = HabitKnife;
+		};
+		A5B450DC2D486E1F00851953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B450B52D486E1E00851953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B450BC2D486E1E00851953;
+			remoteInfo = HabitKnife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5B450BD2D486E1E00851953 /* HabitKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B450D12D486E1F00851953 /* HabitKnifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitKnifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B450DB2D486E1F00851953 /* HabitKnifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitKnifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A5B450E32D486E1F00851953 /* Exceptions for "HabitKnife" folder in "HabitKnife" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A5B450BC2D486E1E00851953 /* HabitKnife */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A5B450BF2D486E1E00851953 /* HabitKnife */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A5B450E32D486E1F00851953 /* Exceptions for "HabitKnife" folder in "HabitKnife" target */,
+			);
+			path = HabitKnife;
+			sourceTree = "<group>";
+		};
+		A5B450D42D486E1F00851953 /* HabitKnifeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HabitKnifeTests;
+			sourceTree = "<group>";
+		};
+		A5B450DE2D486E1F00851953 /* HabitKnifeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HabitKnifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5B450BA2D486E1E00851953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52CE7332D5079E100D3FBC0 /* SymbolPicker in Frameworks */,
+				A5D98CB32D53FC9000B3889F /* SFSymbolsPicker in Frameworks */,
+				A53E1EB72D4BFE4300A62070 /* ColorGrid in Frameworks */,
+				A5D98CB82D54047500B3889F /* SystemImagePicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B450CE2D486E1F00851953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B450D82D486E1F00851953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5B450B42D486E1E00851953 = {
+			isa = PBXGroup;
+			children = (
+				A5B450BF2D486E1E00851953 /* HabitKnife */,
+				A5B450D42D486E1F00851953 /* HabitKnifeTests */,
+				A5B450DE2D486E1F00851953 /* HabitKnifeUITests */,
+				A5B450BE2D486E1E00851953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5B450BE2D486E1E00851953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B450BD2D486E1E00851953 /* HabitKnife.app */,
+				A5B450D12D486E1F00851953 /* HabitKnifeTests.xctest */,
+				A5B450DB2D486E1F00851953 /* HabitKnifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B450BC2D486E1E00851953 /* HabitKnife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B450E42D486E1F00851953 /* Build configuration list for PBXNativeTarget "HabitKnife" */;
+			buildPhases = (
+				A5B450B92D486E1E00851953 /* Sources */,
+				A5B450BA2D486E1E00851953 /* Frameworks */,
+				A5B450BB2D486E1E00851953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A5B450BF2D486E1E00851953 /* HabitKnife */,
+			);
+			name = HabitKnife;
+			packageProductDependencies = (
+				A53E1EB62D4BFE4300A62070 /* ColorGrid */,
+				A52CE7322D5079E100D3FBC0 /* SymbolPicker */,
+				A5D98CB22D53FC9000B3889F /* SFSymbolsPicker */,
+				A5D98CB72D54047500B3889F /* SystemImagePicker */,
+			);
+			productName = HabitKnife;
+			productReference = A5B450BD2D486E1E00851953 /* HabitKnife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5B450D02D486E1F00851953 /* HabitKnifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B450E92D486E1F00851953 /* Build configuration list for PBXNativeTarget "HabitKnifeTests" */;
+			buildPhases = (
+				A5B450CD2D486E1F00851953 /* Sources */,
+				A5B450CE2D486E1F00851953 /* Frameworks */,
+				A5B450CF2D486E1F00851953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B450D32D486E1F00851953 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5B450D42D486E1F00851953 /* HabitKnifeTests */,
+			);
+			name = HabitKnifeTests;
+			packageProductDependencies = (
+			);
+			productName = HabitKnifeTests;
+			productReference = A5B450D12D486E1F00851953 /* HabitKnifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5B450DA2D486E1F00851953 /* HabitKnifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B450EC2D486E1F00851953 /* Build configuration list for PBXNativeTarget "HabitKnifeUITests" */;
+			buildPhases = (
+				A5B450D72D486E1F00851953 /* Sources */,
+				A5B450D82D486E1F00851953 /* Frameworks */,
+				A5B450D92D486E1F00851953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B450DD2D486E1F00851953 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5B450DE2D486E1F00851953 /* HabitKnifeUITests */,
+			);
+			name = HabitKnifeUITests;
+			packageProductDependencies = (
+			);
+			productName = HabitKnifeUITests;
+			productReference = A5B450DB2D486E1F00851953 /* HabitKnifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5B450B52D486E1E00851953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A5B450BC2D486E1E00851953 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A5B450D02D486E1F00851953 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A5B450BC2D486E1E00851953;
+					};
+					A5B450DA2D486E1F00851953 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A5B450BC2D486E1E00851953;
+					};
+				};
+			};
+			buildConfigurationList = A5B450B82D486E1E00851953 /* Build configuration list for PBXProject "HabitKnife" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5B450B42D486E1E00851953;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A53E1EB52D4BFE4300A62070 /* XCRemoteSwiftPackageReference "ColorGrid" */,
+				A52CE7312D5079E100D3FBC0 /* XCRemoteSwiftPackageReference "SymbolPicker" */,
+				A5D98CB12D53FC9000B3889F /* XCRemoteSwiftPackageReference "SFSymbolsPickerForSwiftUI" */,
+				A5D98CB62D54047500B3889F /* XCRemoteSwiftPackageReference "SystemImagePicker" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A5B450BE2D486E1E00851953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5B450BC2D486E1E00851953 /* HabitKnife */,
+				A5B450D02D486E1F00851953 /* HabitKnifeTests */,
+				A5B450DA2D486E1F00851953 /* HabitKnifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5B450BB2D486E1E00851953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B450CF2D486E1F00851953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B450D92D486E1F00851953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B450B92D486E1E00851953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B450CD2D486E1F00851953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B450D72D486E1F00851953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5B450D32D486E1F00851953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B450BC2D486E1E00851953 /* HabitKnife */;
+			targetProxy = A5B450D22D486E1F00851953 /* PBXContainerItemProxy */;
+		};
+		A5B450DD2D486E1F00851953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B450BC2D486E1E00851953 /* HabitKnife */;
+			targetProxy = A5B450DC2D486E1F00851953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5B450E52D486E1F00851953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HabitKnife/HabitKnife.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitKnife/Preview Content\"";
+				DEVELOPMENT_TEAM = Z7S6X96M3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HabitKnife/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latenightsw.HabitKnife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A5B450E62D486E1F00851953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HabitKnife/HabitKnife.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitKnife/Preview Content\"";
+				DEVELOPMENT_TEAM = Z7S6X96M3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HabitKnife/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latenightsw.HabitKnife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		A5B450E72D486E1F00851953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5B450E82D486E1F00851953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A5B450EA2D486E1F00851953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7S6X96M3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latenightsw.HabitKnifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitKnife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitKnife";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A5B450EB2D486E1F00851953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7S6X96M3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latenightsw.HabitKnifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitKnife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HabitKnife";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		A5B450ED2D486E1F00851953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7S6X96M3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latenightsw.HabitKnifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = HabitKnife;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A5B450EE2D486E1F00851953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7S6X96M3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latenightsw.HabitKnifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = HabitKnife;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5B450B82D486E1E00851953 /* Build configuration list for PBXProject "HabitKnife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B450E72D486E1F00851953 /* Debug */,
+				A5B450E82D486E1F00851953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B450E42D486E1F00851953 /* Build configuration list for PBXNativeTarget "HabitKnife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B450E52D486E1F00851953 /* Debug */,
+				A5B450E62D486E1F00851953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B450E92D486E1F00851953 /* Build configuration list for PBXNativeTarget "HabitKnifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B450EA2D486E1F00851953 /* Debug */,
+				A5B450EB2D486E1F00851953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B450EC2D486E1F00851953 /* Build configuration list for PBXNativeTarget "HabitKnifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B450ED2D486E1F00851953 /* Debug */,
+				A5B450EE2D486E1F00851953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A52CE7312D5079E100D3FBC0 /* XCRemoteSwiftPackageReference "SymbolPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/recodyfied/SymbolPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		A53E1EB52D4BFE4300A62070 /* XCRemoteSwiftPackageReference "ColorGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BaherTamer/ColorGrid.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A5D98CB12D53FC9000B3889F /* XCRemoteSwiftPackageReference "SFSymbolsPickerForSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alessiorubicini/SFSymbolsPickerForSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
+		A5D98CB62D54047500B3889F /* XCRemoteSwiftPackageReference "SystemImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sbertix/SystemImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A52CE7322D5079E100D3FBC0 /* SymbolPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A52CE7312D5079E100D3FBC0 /* XCRemoteSwiftPackageReference "SymbolPicker" */;
+			productName = SymbolPicker;
+		};
+		A53E1EB62D4BFE4300A62070 /* ColorGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A53E1EB52D4BFE4300A62070 /* XCRemoteSwiftPackageReference "ColorGrid" */;
+			productName = ColorGrid;
+		};
+		A5D98CB22D53FC9000B3889F /* SFSymbolsPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5D98CB12D53FC9000B3889F /* XCRemoteSwiftPackageReference "SFSymbolsPickerForSwiftUI" */;
+			productName = SFSymbolsPicker;
+		};
+		A5D98CB72D54047500B3889F /* SystemImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5D98CB62D54047500B3889F /* XCRemoteSwiftPackageReference "SystemImagePicker" */;
+			productName = SystemImagePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A5B450B52D486E1E00851953 /* Project object */;
+}
